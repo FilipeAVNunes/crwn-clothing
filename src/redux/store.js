@@ -7,7 +7,7 @@ import rootReducer from "./root-reducer";
 const middlewares = [];
 
 if (process.env.NODE_ENV === "development") {
-  middlewares.push(logger);
+  middlewares.push(logger); // it will only appear the logs on the development build
 }
 
 export const store = createStore(rootReducer, applyMiddleware(...middlewares));
