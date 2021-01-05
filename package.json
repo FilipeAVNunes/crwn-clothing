@@ -36,7 +36,8 @@
     "requests": "^0.3.0",
     "reselect": "^4.0.0",
     "stripe": "6.28.0",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
